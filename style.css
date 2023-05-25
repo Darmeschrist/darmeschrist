@@ -1,6 +1,7 @@
 body{
    margin: 0px;
    font-family: Arial;
+   overflow-x: hidden;
 }
 :root{
     --color:#0D6986;
@@ -10,6 +11,7 @@ body{
 a{
    text-decoration: none;
 }
+
 
 /**************************/
 
@@ -103,7 +105,7 @@ a{
 .desc{
    float: right;
    width: 58%;
-   font-size: 18px;
+   font-size: 19px;
    margin-top: 0px;
    text-align: center;
    color:var(--color2);
@@ -159,17 +161,21 @@ a{
 .desc{
    float: none;
    width: 100%;
-   font-size: 20px;
+   font-size: 17px;
    margin-top: 10px;
 }
 
 .savoir{
    height: 125px;
+   margin-right: 0;
+   margin-left:0;
+   border-radius: 0%;
+   background-color: var(--color1);
 }
 .savoir img{
    width:55px;
    height:55px ;
-   margin-left: 5px;
+   margin-left: 8px;
 }
 .profil{
    display: block;
@@ -177,7 +183,9 @@ a{
 .profil>div{
    margin-top: 0%;
    height: 190px;
-   font-size: 22px;
+   font-size: 19px;
+   color: white;
+   margin-bottom: 0%;
    
 }
 .mecontacter{
@@ -191,7 +199,7 @@ a{
    margin-left: 30%;
 }
 p.copi{
-   font-size: 17px;
+   font-size: 14px;
 }
 .flex>div{
    margin-left: 2px;
