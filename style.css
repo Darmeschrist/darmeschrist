@@ -26,7 +26,6 @@ a{
 }
 .flex{
    display: flex;
-   
    margin-bottom: 0px;
    width:100%;
   
@@ -35,7 +34,7 @@ a{
    font-size: 19px;
    color: white;
    height: 15%;
-   margin: 7px 1% 7px 2%; 
+   margin: 7px 0% 7px 2%; 
    padding:5px 10px;
 }
 .flex a{
