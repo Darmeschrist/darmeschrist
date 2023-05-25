@@ -1,0 +1,206 @@
+body{
+   margin: 0px;
+   font-family: Arial;
+}
+:root{
+    --color:#0D6986;
+    --color1: #bebdbf;
+    --color2:#5f5e60;
+}
+a{
+   text-decoration: none;
+}
+
+/**************************/
+
+.cover{
+  background: url(imagecover.jpg)no-repeat center/cover;
+  height: 550px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode: multiply; 
+  color: #fff;
+
+}
+.flex{
+   display: flex;
+   
+   margin-bottom: 0px;
+   width:100%;
+  
+}
+.flex>div {
+   font-size: 19px;
+   color: white;
+   height: 15%;
+   margin: 7px 1% 7px 2%; 
+   padding:5px 10px;
+}
+.flex a{
+    color: white;
+}
+.flex>div:hover{
+   border-bottom: 1px solid var(--color2) ;
+}
+.contact>h1{
+   margin-top: 0px;
+
+}
+.contact{
+   text-align: center;
+   top: 50%;
+   position: relative;
+}
+.separateur{
+   width: 27%;
+   height: 1px;
+   background-color: var(--color2);
+   margin-left: auto;
+   margin-right: auto;
+}
+.separateurs{
+   width: 27%;
+   height: 1px;
+   background-color: white;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 15px;
+}
+.contacter a {
+   margin-left: auto;
+   margin-right: auto;
+   color: white;
+   font-size: 16px;
+   border: 1px solid var(--color2);
+   display: inline-block;
+   padding: 3px 10px;
+   border-radius: 25px;
+}
+.profil{
+   display: flex;
+   justify-content: center; /* Centrage horizontal */
+   align-items: center; 
+   margin-top: 50px;
+}
+.profil>div{
+   background-color: var(--color1);
+   margin-left: 5px;
+   margin-right: 5px;
+   text-align:center;
+   margin-top: 100px;
+   height: 200px;
+   border-radius: 25px;
+   color:rgb(31, 28, 28);
+   font-size: 20px;
+}
+.profil div h3{
+   color:var(--color);
+}
+.pdp{
+   height: 500px;
+   width: 40%;
+}
+.desc{
+   float: right;
+   width: 58%;
+   font-size: 18px;
+   margin-top: 0px;
+   text-align: center;
+   color:var(--color2);
+}
+.moi{
+   text-align: center;
+   margin-top: 50px;
+}
+.savoir{
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   margin-top: 50px;
+   background-color:var(--color1);
+   height: 210px;
+   margin-left: 20px;
+   margin-right: 20px;
+   border-radius: 50px;
+}
+.savoir>img{
+   margin-left: 10%;
+   margin-right:5%;
+}
+.mecontacter{
+   background-color: #0c5a72;
+   height: 100px;
+}
+.mecontacter p {
+   font-size: 20px;
+   text-align: center;
+   color: white;
+   margin-top: 20px;
+}
+.mecontacter a{
+   color: white;
+   margin-left: 45%;
+   margin-top: 7px;
+
+}
+
+@media (max-width:844px){
+   .cover{
+      height: 400px;
+}
+
+.pdp{
+   height: 200px;
+   width: 85%;
+   display: block;
+   margin-left: 5%;
+   
+}
+.desc{
+   float: none;
+   width: 100%;
+   font-size: 20px;
+   margin-top: 10px;
+}
+
+.savoir{
+   height: 125px;
+}
+.savoir img{
+   width:55px;
+   height:55px ;
+   margin-left: 5px;
+}
+.profil{
+   display: block;
+}
+.profil>div{
+   margin-top: 0%;
+   height: 190px;
+   font-size: 22px;
+   
+}
+.mecontacter{
+   height: 150px;
+   font-size: 20px;
+}
+.mecontacter p{
+   font-size: 23px;
+}
+.mecontacter a{
+   margin-left: 30%;
+}
+p.copi{
+   font-size: 17px;
+}
+.flex>div{
+   margin-left: 2px;
+   margin-right: 2px;
+   font-size: 17px;
+}
+.contact{
+   top: 25%;
+}
+
+}
+
